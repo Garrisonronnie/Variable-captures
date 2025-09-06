@@ -39,3 +39,66 @@ Thumbs.db
 *.tmp
 *.bak
 *.swp
+# ========================
+# Python usbmuxc
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# Logs
+*.log
+usbmuxc.log
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux system files
+*~
+
+# Windows system files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Python test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
