@@ -39,7 +39,7 @@ It is **importable** as a module for use in larger projects or can be run **stan
 Clone the repository into your workspace (example path:
 `C:\Users\youruser\Documents\veritable-captures`):
 ```bash
-git clone https://github.com/<your-username>/veritable-captures.git
+git clone https://github.com/Garrisonronnie/Variable-captures
 cd veritable-captures
 - python -m venv venv
 - venv\Scripts\activate
