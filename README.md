@@ -1,6 +1,6 @@
 # Variable Captures
 **Author:** Ronnie Garrison
-**License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+**License:** MIT LICENSE
 **Status:** Stable & Usable on Windows
 ---
 ## 📌 Overview
