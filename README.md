@@ -35,7 +35,7 @@ It is **importable** as a module for use in larger projects or can be run **stan
 ✅ **Persistence & Export**
 - Save results to `variables.json`, `variables.csv`, or `variables.db` (SQLite).
 ---
-## 🖥️ Installation (Windows)
+## 🖥️ Installation (Windows)(Linux)(Mac)
 Clone the repository into your workspace (example path:
 `C:\Users\youruser\Documents\veritable-captures`):
 ```bash
