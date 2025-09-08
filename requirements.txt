@@ -51,3 +51,9 @@ pathlib2>=2.3.7.post1 ; python_version < "3.6"
 # requirements for phaser kit
 click
 tqdm
+# ================
+   # Toolkitsys
+# ================
+
+requirements
+rich>=13.0.0
