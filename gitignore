@@ -248,3 +248,10 @@ venv/
 build/
 dist/
 *.egg-info/
+# ===============
+memory_enchanced
+# ===============
+# Optionally add linters or testing tools
+# mypy==1.8.0
+# pytest==7.4.0
+# pylint==3.0.0
