@@ -7,3 +7,15 @@ pymobiledevice3>=0.3.2 and usbmuxd
 
 requirements for orchestrator
 pyYAML rich
+
+requirements for flatbufferkit
+
+# Required
+# Python version 3.8+ is required but specified outside of pip
+# No packages required for basic compression, file save/load, or safe memory access
+
+# Optional - install if you want AES encryption
+pycryptodome>=3.10
+
+# Optional - install if you want FlatBuffers Builder support
+flatbuffers>=23.5
