@@ -225,3 +225,26 @@ env/
 
 # Test or parsed outputs
 parsed_output.json
+
+# =================
+toolkitsys
+# =================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# IDE and Editor folders
+.vscode/
+.idea/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
