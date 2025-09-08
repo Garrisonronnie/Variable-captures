@@ -251,7 +251,46 @@ dist/
 # ===============
 memory_enchanced
 # ===============
-# Optionally add linters or testing tools
-# mypy==1.8.0
-# pytest==7.4.0
-# pylint==3.0.0
+# # VS Code settings
+.vscode/
+
+# macOS and Linux
+.DS_Store
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python test output
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs
+*.log
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pylint
+pylint-report.txt
+
+# Test cache
+.cache/
+pytest_cache/
