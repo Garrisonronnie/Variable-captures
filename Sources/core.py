@@ -190,4 +190,5 @@ class IPSWToolkit:
             f"Number of files in IPSW: {info.get('num_files')}",
             f"Sandbox path: {self._sandbox_dir}",
         ]
+
         return "\n".join(lines)
