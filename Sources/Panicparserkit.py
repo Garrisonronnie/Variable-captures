@@ -117,4 +117,5 @@ def parse_panic(panic_file: str, symbol_file: str, output: Optional[str]):
         logging.error(f"Failed to parse panic file: {e}")
         raise click.ClickException(str(e))
 if __name__ == "__main__":
+
     cli()
