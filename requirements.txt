@@ -47,3 +47,7 @@ pytest>=7.0.0
 
 # Optional: for future sandboxing or file path utilities
 pathlib2>=2.3.7.post1 ; python_version < "3.6"
+
+# requirements for phaser kit
+click
+tqdm
