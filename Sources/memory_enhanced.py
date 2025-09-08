@@ -133,4 +133,5 @@ if __name__ == "__main__":
                 f.write(output + "\n")
             logger.info("Memory status logged to %s", args.logfile)
         except Exception as e:
+
             logger.error("Failed to write log file: %s", e)
