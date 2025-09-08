@@ -148,3 +148,53 @@ env/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+#==================
+# ipsw_toolkit
+#==================
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.env/
+.venv/
+venv/
+ENV/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# OS-specific files
+.DS_Store        # macOS Finder metadata
+Thumbs.db        # Windows thumbnail cache
+desktop.ini      # Windows system files
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Sandbox or temporary extraction folders
+ipsw_toolkit/sandbox/
+ipsw_toolkit/*.sandbox/
+*.sandbox/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
