@@ -102,3 +102,49 @@ coverage.xml
 *.bak
 *.swp
 *.tmp
+# ========================
+# Orchestrator
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+logs/
+*.log
+
+# Dashboard exports
+logs/dashboard.json
+
+# Scripts folder (optional: if you want to exclude generated or temporary scripts)
+# scripts/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
