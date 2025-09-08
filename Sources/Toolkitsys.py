@@ -76,4 +76,5 @@ class ExtendedRichToolkit(RichToolkit):
             return
         lines = [f"{bullet} {item}" for item in items]
         group = Group(*[Text(line) for line in lines])
+
         self.print_panel(title, group)
