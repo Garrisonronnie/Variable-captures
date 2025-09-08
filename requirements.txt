@@ -19,3 +19,31 @@ pycryptodome>=3.10
 
 # Optional - install if you want FlatBuffers Builder support
 flatbuffers>=23.5
+
+
+# requirements for IPSW_toolkit
+
+
+# Core dependency for parsing IPSW files
+ipsw-parser>=1.4.0
+
+# Optional caching for properties
+cached-property>=1.5.2
+
+# Construct library for structured binary data handling
+construct>=2.10.68
+
+# For plist (Apple property lists) handling
+plistlib  # built-in in Python >=3.4, included for clarity
+
+# Optional: pathlib is built-in in Python >=3.4
+pathlib  # included for clarity
+
+# Optional: typing extensions if using older Python versions
+typing-extensions>=4.0.0
+
+# Testing framework
+pytest>=7.0.0
+
+# Optional: for future sandboxing or file path utilities
+pathlib2>=2.3.7.post1 ; python_version < "3.6"
