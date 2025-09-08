@@ -57,3 +57,8 @@ tqdm
 
 requirements
 rich>=13.0.0
+
+# ===============
+  # memory_enhanced
+# ===============
+
