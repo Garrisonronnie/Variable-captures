@@ -1,3 +1,4 @@
+***pip install requirements***
 matplotlib>=3.7.0
 
 networkx>3.1
@@ -69,3 +70,4 @@ rich>=13.0.0
 
 flask>=3.0.0
 pysnmp>=4.4.12
+
