@@ -328,3 +328,69 @@ Thumbs.db
 *.coverage
 htmlcov/
 .pytest_cache/
+
+# syntax checker framwork 
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ----------------------
+# Logs and Cache
+# ----------------------
+*.log
+*.txt
+*.json
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+venv/
+env/
+.venv/
+.env/
+
+# ----------------------
+# IDEs
+# ----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# PyInstaller
+# ----------------------
+dist/
+build/
+*.spec
+
+# ----------------------
+# Coverage and Testing
+# ----------------------
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+pytest_cache/
+
+# ----------------------
+# Misc
+# ----------------------
+*.bak
+*.swp
+
