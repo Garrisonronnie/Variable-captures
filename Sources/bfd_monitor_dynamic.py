@@ -498,4 +498,5 @@ def main() -> None:
         DB.close()
         LOG.info("Shutdown complete.")
 if __name__ == "__main__":
+
     main()
