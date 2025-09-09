@@ -71,3 +71,30 @@ rich>=13.0.0
 flask>=3.0.0
 pysnmp>=4.4.12
 
+# ==============
+# syntax checker
+# ==============
+requirements # Core
+astroid>=2.10
+argparse
+hashlib
+jsonschema
+typing-extensions
+
+# Logging
+loguru>=0.7.0
+
+# Optional AI analysis (OpenAI)
+openai>=1.0.0
+
+# For subprocess and system calls (Bash/PowerShell)
+# No external packages required; using standard library
+
+# Optional: colored output in terminal
+colorama>=0.4.6
+
+# Optional: YAML support for future configs
+PyYAML>=6.0
+
+# Optional: requests for future extensions
+requests>=2.31.0
