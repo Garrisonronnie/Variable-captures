@@ -294,3 +294,37 @@ pylint-report.txt
 # Test cache
 .cache/
 pytest_cache/
+# ===========
+bfd_monitor
+# ===========
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+bfd_monitor_dynamic.log
+
+# SQLite databases
+*.db
+bfd_monitor_dynamic.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# Test/coverage
+.coverage
+*.coverage
+htmlcov/
+.pytest_cache/
