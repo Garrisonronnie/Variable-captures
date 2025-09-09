@@ -62,3 +62,10 @@ rich>=13.0.0
   # memory_enhanced
 # ===============
 
+# ===============
+# Bfd_monitor
+# ===============
+# requirements
+
+flask>=3.0.0
+pysnmp>=4.4.12
