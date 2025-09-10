@@ -98,3 +98,18 @@ PyYAML>=6.0
 
 # Optional: requests for future extensions
 requests>=2.31.0
+# ================
+# completion_helper
+# ================
+# requirements python3 --version  3.6+
+
+pymobiledevice3 install_completions
+
+pip install pymobiledevice3 
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install pymobiledevice3
+
+python3 install_completion.py
