@@ -52,6 +52,7 @@ env/
 .venv/
 .env/
 
+
 # Distribution / packaging
 build/
 dist/
@@ -393,4 +394,34 @@ pytest_cache/
 # ----------------------
 *.bak
 *.swp
+# ==============
+ # completion_helper
+# ==============
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.bak
+*.backup
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE files (add yours if needed)
+.vscode/
+.idea/
+
 
