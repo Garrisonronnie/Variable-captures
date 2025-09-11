@@ -38,8 +38,10 @@ This module depends on:
 - Python 3.8+
 - [pydantic](https://pydantic.dev/)
 - [typing-extensions](https://pypi.org/project/typing-extensions/) (for `Annotated` support on older Python versions)
+- download the repo git clone https://github.com/Garrisonronnie/python-Helper-library.git
 
 Install dependencies via pip:
 
 ```bash
 pip install -r requirements.txt
+
