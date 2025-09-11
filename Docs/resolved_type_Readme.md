@@ -18,7 +18,7 @@ An extended and flexible version of Pydantic's `PathType` that adds support for 
 - Compatible with Pydantic models via `typing_extensions.Annotated`.
 - Uses Pydantic's original path validation internally, maintaining original behavior.
 - Cross-platform compatible (Windows, macOS, Linux).
-- Designed to function in sandboxed environments (containers, restricted file systems).
+- Designed to function in sandboxed environments (containers,user built file – Provides the path of the script file. systems).
 - MIT licensed for free use and modification.
 
 ---
@@ -44,4 +44,5 @@ Install dependencies via pip:
 
 ```bash
 pip install -r requirements.txt
+
 
