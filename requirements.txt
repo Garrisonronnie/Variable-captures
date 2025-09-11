@@ -113,3 +113,10 @@ source venv/bin/activate
 pip install pymobiledevice3
 
 python3 install_completion.py
+
+# ======================
+# requirements
+# resolved_type
+# =====================
+pydantic>=2.0
+typing-extensions>=4.0
